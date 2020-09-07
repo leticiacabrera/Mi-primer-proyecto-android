@@ -11,18 +11,16 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:text="@string/text_name"
         android:textColor="@android:color/background_light"
-        android:textSize="@android:dimen/notification_large_icon_height"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="79dp" />
+        android:textSize="?attr/actionBarSize"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="122dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:width="@android:dimen/notification_large_icon_height"
         android:background="@android:color/transparent"
         android:bufferType="normal"
@@ -30,8 +28,8 @@
         android:text="@string/button_name"
         android:textColor="@android:color/background_light"
         app:barrierMargin="@android:dimen/notification_large_icon_height"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="245dp" />
+        tools:layout_editor_absoluteX="716dp"
+        tools:layout_editor_absoluteY="219dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
