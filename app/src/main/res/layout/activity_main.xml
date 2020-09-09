@@ -30,8 +30,8 @@
         android:text="@string/button_name"
         android:textColor="@android:color/background_light"
         app:barrierMargin="@android:dimen/notification_large_icon_height"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="245dp" />
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="295dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
